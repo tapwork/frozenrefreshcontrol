@@ -14,6 +14,7 @@ UIRefreshControl should still be active after dismissing the modal viewcontrolle
 
 #Actual Results
 UIRefreshControl does not rotate after dismissing the modal viewcontroller. But is still visible (frozen!)
+See [example](https://raw.githubusercontent.com/tapwork/frozenrefreshcontrol/master/example.png)
 
 #Version
 iOS 9.0.1
