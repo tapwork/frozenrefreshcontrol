@@ -1,5 +1,5 @@
 # Summary
-Presententing a modal viewcontroller when the UIRefreshControl is running, the UIRefreshControl stops rotating.
+Presententing a modal viewcontroller when the UIRefreshControl is running, the UIRefreshControl stops rotating and will be frozen.
 Issue occurs since iOS 9.
 
 #Steps to Reproduce
@@ -13,7 +13,7 @@ Issue occurs since iOS 9.
 UIRefreshControl should still be active after dismissing the modal viewcontroller
 
 #Actual Results
-UIRefreshControl does not rotate after dismissing the modal viewcontroller
+UIRefreshControl does not rotate after dismissing the modal viewcontroller. But is still visible (frozen!)
 
 #Version
 iOS 9.0.1
